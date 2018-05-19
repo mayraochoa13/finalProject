@@ -1,16 +1,16 @@
 <?php   
     function connecToDB() {
-             $host = "localhost";
-             $username = "mayochoa13";
-             $password = "pulpO1013";
-             $dbname = 'myPlace'; 
+            //  $host = "localhost";
+            //  $username = "mayochoa13";
+            //  $password = "pulpO1013";
+            //  $dbname = 'myPlace'; 
              
              //mysql://b992a7a74538f5:52272d6a@us-cdbr-iron-east-04.cleardb.net/heroku_64fb8dc07334924?reconnect=true
             //heroku info mysql://b992a7a74538f5:52272d6a@us-cdbr-iron-east-04.cleardb.net/heroku_64fb8dc07334924?reconnect=true
-            //   $host = "us-cdbr-iron-east-04.cleardb.net";
-            //   $dbname = "heroku_64fb8dc07334924";
-            //   $username = "b992a7a74538f5";
-            //   $password = "52272d6a";
+              $host = "us-cdbr-iron-east-04.cleardb.net";
+              $dbname = "heroku_64fb8dc07334924";
+              $username = "b992a7a74538f5";
+              $password = "52272d6a";
         
      $dsn = "mysql:host=$host; dbname=$dbname";
         $opt = [
